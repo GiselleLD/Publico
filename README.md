@@ -1,4 +1,17 @@
 # Publico
+prueba1
+
+Hola que tal!
+
+bienvenidos a la prueba publica
+
+Equipo:
+-Giselle 
+-Jorge
+-OBrien
+
+133245
+=======
 using System;
 
 class Program
@@ -8,15 +21,12 @@ class Program
         Random rnd = new Random();
         int numeroSecreto = rnd.Next(1, 101);
         int intentos = 0;
-
         Console.WriteLine("¡Adivina el número (1-100)!");
-
         while (true)
         {
             Console.Write("Tu intento: ");
             int intento = Convert.ToInt32(Console.ReadLine());
             intentos++;
-
             if (intento == numeroSecreto)
             {
                 Console.WriteLine($"¡Correcto! Lo lograste en {intentos} intentos.");
@@ -26,3 +36,4 @@ class Program
         }
     }
 }
+main
